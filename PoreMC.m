@@ -8,7 +8,7 @@ function [Area, Perimeter, Lattice, HeatMap, AFit,PFit] = PoreMC(NumIterations, 
 %Example inputs: PoreMC(1000, 0.03, 0.03)
 
 %Outputs:
-%Area is a (NumIterations,2) array. First column is iteration number, second column is number of vacant atomic columns.
+%Area is an array. First column is iteration number, second column is number of vacant atomic columns.
 %Perimeter is same as Area, but for the number of edge atoms
 %Lattice is the final map of where the remaining atoms are located.
 %HeatMap labels which iteration caused each ejection to occur.
