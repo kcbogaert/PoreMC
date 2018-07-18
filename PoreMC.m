@@ -5,7 +5,7 @@ function [Area, Perimeter, Lattice, HeatMap, AFit,PFit] = PoreMC(NumIterations, 
 %MetalProb is a number between 0 and 1 which corresponds to the probability that any edge metal atom will be ejected
 %ChalcProb is same as MetalProb, but for chalcogen atoms
 
-%Example inputs: MC2S(1000, 0.03, 0.03)
+%Example inputs: PoreMC(1000, 0.03, 0.03)
 
 %Outputs:
 %Area is a (NumIterations,2) array. First column is iteration number, second column is number of vacant atomic columns.
